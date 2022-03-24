@@ -10,8 +10,9 @@ public class Calculator {
         return a - b;
     }
 	
-	public int multiply(int a, int b) {
-        return a * b;
+	public void multiply() {
+        Calculator calculator = new Calculator();
+        assertEquals(20, calculator.multiply(10, 2));
     }
 
 }
